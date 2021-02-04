@@ -1,0 +1,42 @@
+﻿@model IEnumerable<gp_DataBase.gp15_base_Models.NtActions>
+
+@{
+    ViewData["Title"] = "Left";
+}
+
+@foreach (var item in Model)
+{
+    if (item.Url != null && item.Url.Trim().Length > 0 && item.PId == 0)
+    {
+        var childCount = 0;
+        foreach (var son in Model)
+        {
+            if (son.PId == item.Id)
+            {
+                childCount++;
+            }
+        }
+        if (childCount != 0)
+        {
+            <h3 class="menuheader expandable"> @item.Name</h3>
+        }
+        else
+        {
+            <h3 class="menuheader" style="cursor:default">@item.Name</h3>
+
+        }
+        if (childCount != 0)
+        {
+<ul class="categoryitems">
+    @foreach (var son in Model)
+    {
+        if (son.PId == item.Id)
+        {
+            <li><a href="@son.Url" target="mainFrame">@son.Name</a></li>
+        }
+    }
+</ul>
+        }
+    }
+}
+

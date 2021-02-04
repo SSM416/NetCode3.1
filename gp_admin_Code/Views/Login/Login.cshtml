@@ -1,0 +1,47 @@
+﻿
+@{
+    ViewData["Title"] = "Login";
+}
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<h1>登录</h1>
+<form action="/Login/LoginDo" method="post">
+    用户名： <input type="text" name="username" value="" />
+    密码：<input type="password" name="password" value="" />
+    <input type="submit" value="登录" />
+</form>
+<script>
+    var obj2 = [];
+    var obj1 = [{ "type": "1", "state": false }, { "type": "2", "state": false }, { "type": "3", "state": false }];
+    console.log(obj1)
+    $.extend(true, obj2, obj1);
+    //var obj2 = JSON.parse(JSON.stringify(obj1));
+    for (var i = 0; i < obj2.length; i++) {
+        switch (obj2[i]["type"]) {
+            case "1":
+                obj2[i].state = true;
+                break;
+            case "2":
+                obj2[i].state = true;
+                break;
+            case "5":
+                obj2[i].state = true;
+                break;
+
+        }
+        //if (dataType[i]["type"] == "add") {
+        //    dataType[i].state = true;
+        //}
+        //if (dataType[i]["type"] == "update") {
+        //    dataType[i].state = true;
+
+        //}
+        //if (dataType[i]["type"] == "del1") {
+        //    dataType[i].state = true;
+        //}
+        ////console.log("Btns.operate======>"+Btns.operate);
+        //if (dataType[i]["type"] == "onlyLeaf") {
+        //    dataType[i].state = true;
+        //}
+    }
+    console.log(obj2);
+</script>

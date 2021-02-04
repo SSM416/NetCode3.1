@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\gp_DataBase\gp_DataBase.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Web.Extensions">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Web.Extensions.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

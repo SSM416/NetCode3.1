@@ -1,0 +1,8 @@
+2020-06-11 18:56:35,661 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-06-11 18:56:35,675 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-06-11 18:56:35,676 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\迅雷下载\gp_admin_Code\gp_admin_Code
+2020-06-11 18:56:38,955 [6] ERROR Exercise.Services.LoginService - 登录过程中出错:No sign-out authentication handler is registered for the scheme '111'. The registered sign-out schemes are: CookieAuthentication. Did you forget to call AddAuthentication().AddCookies("111",...)?
+2020-06-11 18:58:29,150 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-06-11 18:58:29,165 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-06-11 18:58:29,168 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\迅雷下载\gp_admin_Code\gp_admin_Code
+2020-06-11 18:58:49,398 [11] ERROR Exercise.Services.LoginService - 登录过程中出错:No sign-out authentication handler is registered for the scheme '111'. The registered sign-out schemes are: CookieAuthentication. Did you forget to call AddAuthentication().AddCookies("111",...)?

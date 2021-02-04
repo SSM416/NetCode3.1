@@ -1,0 +1,204 @@
+2020-08-31 17:27:54,952 [1] INFO  Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-08-31 17:27:55,110 [1] INFO  Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - Creating key {4ec269a0-c266-4e2e-bb66-3b0e13b79fff} with creation date 2020-08-31 09:27:55Z, activation date 2020-08-31 09:27:55Z, and expiration date 2020-11-29 09:27:55Z.
+2020-08-31 17:27:55,124 [1] INFO  Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository - Writing data to file 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys\key-4ec269a0-c266-4e2e-bb66-3b0e13b79fff.xml'.
+2020-08-31 17:27:55,695 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-08-31 17:27:55,696 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-08-31 17:27:55,696 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\迅雷下载\gp_admin_Code\gp_admin_Code
+2020-08-31 17:27:55,772 [8] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:3308/  
+2020-08-31 17:27:55,845 [8] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'gp_admin_Code.Controllers.LoginController.Login (gp_admin_Code)'
+2020-08-31 17:27:55,874 [8] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller gp_admin_Code.Controllers.LoginController (gp_admin_Code).
+2020-08-31 17:27:56,143 [8] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+2020-08-31 17:27:56,226 [8] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 85.4209ms.
+2020-08-31 17:27:56,227 [8] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action gp_admin_Code.Controllers.LoginController.Login (gp_admin_Code) in 352.7997ms
+2020-08-31 17:27:56,228 [8] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'gp_admin_Code.Controllers.LoginController.Login (gp_admin_Code)'
+2020-08-31 17:27:56,235 [8] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 463.8873ms 200 text/html; charset=utf-8
+2020-08-31 17:27:56,319 [9] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:3308/favicon.ico  
+2020-08-31 17:27:56,375 [8] INFO  Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon.ico'. Physical path: 'D:\迅雷下载\gp_admin_Code\gp_admin_Code\wwwroot\favicon.ico'
+2020-08-31 17:27:56,376 [8] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 56.761ms 200 image/x-icon
+2020-08-31 17:28:06,818 [8] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:3308/Login/LoginDo application/x-www-form-urlencoded 36
+2020-08-31 17:28:06,824 [8] INFO  Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware - No CORS policy found for the specified request.
+2020-08-31 17:28:06,826 [8] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'gp_admin_Code.Controllers.LoginController.LoginDoAsync (gp_admin_Code)'
+2020-08-31 17:28:06,918 [8] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "LoginDo", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginDoAsync(System.String, System.String) on controller gp_admin_Code.Controllers.LoginController (gp_admin_Code).
+2020-08-31 17:28:09,080 [8] INFO  Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler - AuthenticationScheme: CookieAuthentication signed in.
+2020-08-31 17:28:09,815 [8] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /Roles/Index.
+2020-08-31 17:28:09,815 [8] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action gp_admin_Code.Controllers.LoginController.LoginDoAsync (gp_admin_Code) in 2896.5553ms
+2020-08-31 17:28:09,816 [8] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'gp_admin_Code.Controllers.LoginController.LoginDoAsync (gp_admin_Code)'
+2020-08-31 17:28:09,817 [8] INFO  Microsoft.AspNetCore.Session.DistributedSession - Session started; Key:599ade6f-010c-a350-f647-f9d9f875f8a8, Id:b5e5f0ff-5f5d-974f-e7db-407ea17a037a
+2020-08-31 17:28:09,823 [8] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3005.9637ms 302 
+2020-08-31 17:28:09,828 [9] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:3308/Roles/Index  
+2020-08-31 17:28:09,837 [9] INFO  Microsoft.AspNetCore.Authorization.DefaultAuthorizationService - Authorization was successful.
+2020-08-31 17:28:09,838 [9] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'gp_admin_Code.Controllers.RolesController.Index (gp_admin_Code)'
+2020-08-31 17:28:09,841 [9] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Roles"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller gp_admin_Code.Controllers.RolesController (gp_admin_Code).
+2020-08-31 17:28:09,843 [9] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+2020-08-31 17:28:09,853 [9] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 10.7334ms.
+2020-08-31 17:28:09,854 [9] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action gp_admin_Code.Controllers.RolesController.Index (gp_admin_Code) in 13.1821ms
+2020-08-31 17:28:09,855 [9] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'gp_admin_Code.Controllers.RolesController.Index (gp_admin_Code)'
+2020-08-31 17:28:09,855 [9] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 27.8986ms 200 text/html; charset=utf-8
+2020-08-31 17:28:09,878 [4] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:3308/Roles/Top  
+2020-08-31 17:28:09,878 [7] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:3308/Roles/Left  
+2020-08-31 17:28:09,881 [7] INFO  Microsoft.AspNetCore.Authorization.DefaultAuthorizationService - Authorization was successful.
+2020-08-31 17:28:09,882 [7] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'gp_admin_Code.Controllers.RolesController.Left (gp_admin_Code)'
+2020-08-31 17:28:09,881 [4] INFO  Microsoft.AspNetCore.Authorization.DefaultAuthorizationService - Authorization was successful.
+2020-08-31 17:28:09,882 [9] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:3308/Roles/Main  
+2020-08-31 17:28:09,884 [9] INFO  Microsoft.AspNetCore.Authorization.DefaultAuthorizationService - Authorization was successful.
+2020-08-31 17:28:09,885 [9] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'gp_admin_Code.Controllers.RolesController.Main (gp_admin_Code)'
+2020-08-31 17:28:09,883 [4] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'gp_admin_Code.Controllers.RolesController.Top (gp_admin_Code)'
+2020-08-31 17:28:09,887 [4] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "Top", controller = "Roles"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Top() on controller gp_admin_Code.Controllers.RolesController (gp_admin_Code).
+2020-08-31 17:28:09,887 [9] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "Main", controller = "Roles"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Main() on controller gp_admin_Code.Controllers.RolesController (gp_admin_Code).
+2020-08-31 17:28:09,888 [4] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Top.
+2020-08-31 17:28:09,889 [9] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Main.
+2020-08-31 17:28:09,891 [4] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Top executed in 3.2199ms.
+2020-08-31 17:28:09,891 [4] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action gp_admin_Code.Controllers.RolesController.Top (gp_admin_Code) in 4.3386ms
+2020-08-31 17:28:09,892 [4] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'gp_admin_Code.Controllers.RolesController.Top (gp_admin_Code)'
+2020-08-31 17:28:09,892 [4] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 14.2139ms 200 text/html; charset=utf-8
+2020-08-31 17:28:09,892 [9] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Main executed in 3.9087ms.
+2020-08-31 17:28:09,894 [9] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action gp_admin_Code.Controllers.RolesController.Main (gp_admin_Code) in 5.8539ms
+2020-08-31 17:28:09,894 [9] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'gp_admin_Code.Controllers.RolesController.Main (gp_admin_Code)'
+2020-08-31 17:28:09,894 [9] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 12.2587ms 200 text/html; charset=utf-8
+2020-08-31 17:28:09,891 [7] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "Left", controller = "Roles"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Left() on controller gp_admin_Code.Controllers.RolesController (gp_admin_Code).
+2020-08-31 17:28:10,105 [7] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Left.
+2020-08-31 17:28:10,110 [7] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Left executed in 4.9333ms.
+2020-08-31 17:28:10,110 [7] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action gp_admin_Code.Controllers.RolesController.Left (gp_admin_Code) in 209.4494ms
+2020-08-31 17:28:10,111 [7] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'gp_admin_Code.Controllers.RolesController.Left (gp_admin_Code)'
+2020-08-31 17:28:10,111 [7] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 233.2518ms 200 text/html; charset=utf-8
+2020-08-31 17:28:51,158 [1] INFO  Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-08-31 17:28:51,299 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-08-31 17:28:51,300 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-08-31 17:28:51,300 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\迅雷下载\gp_admin_Code\gp_admin_Code
+2020-08-31 17:28:51,320 [6] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:3308/Roles/Index  
+2020-08-31 17:28:51,371 [6] INFO  Microsoft.AspNetCore.Authorization.DefaultAuthorizationService - Authorization was successful.
+2020-08-31 17:28:51,374 [6] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'gp_admin_Code.Controllers.RolesController.Index (gp_admin_Code)'
+2020-08-31 17:28:51,395 [6] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Roles"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller gp_admin_Code.Controllers.RolesController (gp_admin_Code).
+2020-08-31 17:28:51,552 [6] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+2020-08-31 17:28:51,597 [6] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 48.9835ms.
+2020-08-31 17:28:51,597 [6] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action gp_admin_Code.Controllers.RolesController.Index (gp_admin_Code) in 202.2341ms
+2020-08-31 17:28:51,599 [6] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'gp_admin_Code.Controllers.RolesController.Index (gp_admin_Code)'
+2020-08-31 17:28:51,608 [6] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 288.8142ms 200 text/html; charset=utf-8
+2020-08-31 17:28:51,614 [8] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:3308/Roles/Top  
+2020-08-31 17:28:51,616 [9] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:3308/Roles/Left  
+2020-08-31 17:28:51,617 [6] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:3308/Roles/Main  
+2020-08-31 17:28:51,619 [6] INFO  Microsoft.AspNetCore.Authorization.DefaultAuthorizationService - Authorization was successful.
+2020-08-31 17:28:51,619 [9] INFO  Microsoft.AspNetCore.Authorization.DefaultAuthorizationService - Authorization was successful.
+2020-08-31 17:28:51,620 [9] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'gp_admin_Code.Controllers.RolesController.Left (gp_admin_Code)'
+2020-08-31 17:28:51,620 [6] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'gp_admin_Code.Controllers.RolesController.Main (gp_admin_Code)'
+2020-08-31 17:28:51,619 [8] INFO  Microsoft.AspNetCore.Authorization.DefaultAuthorizationService - Authorization was successful.
+2020-08-31 17:28:51,622 [8] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'gp_admin_Code.Controllers.RolesController.Top (gp_admin_Code)'
+2020-08-31 17:28:51,622 [6] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "Main", controller = "Roles"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Main() on controller gp_admin_Code.Controllers.RolesController (gp_admin_Code).
+2020-08-31 17:28:51,622 [9] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "Left", controller = "Roles"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Left() on controller gp_admin_Code.Controllers.RolesController (gp_admin_Code).
+2020-08-31 17:28:51,623 [8] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "Top", controller = "Roles"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Top() on controller gp_admin_Code.Controllers.RolesController (gp_admin_Code).
+2020-08-31 17:28:51,625 [6] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Main.
+2020-08-31 17:28:51,625 [8] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Top.
+2020-08-31 17:28:51,629 [8] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Top executed in 4.2784ms.
+2020-08-31 17:28:51,630 [8] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action gp_admin_Code.Controllers.RolesController.Top (gp_admin_Code) in 6.2106ms
+2020-08-31 17:28:51,631 [8] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'gp_admin_Code.Controllers.RolesController.Top (gp_admin_Code)'
+2020-08-31 17:28:51,629 [6] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Main executed in 5.0796ms.
+2020-08-31 17:28:51,632 [6] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action gp_admin_Code.Controllers.RolesController.Main (gp_admin_Code) in 8.8072ms
+2020-08-31 17:28:51,633 [6] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'gp_admin_Code.Controllers.RolesController.Main (gp_admin_Code)'
+2020-08-31 17:28:51,633 [6] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 16.7638ms 200 text/html; charset=utf-8
+2020-08-31 17:28:51,631 [8] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 16.9323ms 200 text/html; charset=utf-8
+2020-08-31 17:28:51,805 [9] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Left.
+2020-08-31 17:28:51,810 [9] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Left executed in 5.4485ms.
+2020-08-31 17:28:51,810 [9] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action gp_admin_Code.Controllers.RolesController.Left (gp_admin_Code) in 187.05ms
+2020-08-31 17:28:51,811 [9] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'gp_admin_Code.Controllers.RolesController.Left (gp_admin_Code)'
+2020-08-31 17:28:51,813 [9] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 196.6097ms 200 text/html; charset=utf-8
+2020-08-31 17:28:51,874 [12] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:3308/favicon.ico  
+2020-08-31 17:28:51,886 [8] INFO  Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon.ico'. Physical path: 'D:\迅雷下载\gp_admin_Code\gp_admin_Code\wwwroot\favicon.ico'
+2020-08-31 17:28:51,887 [8] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 13.1293ms 200 image/x-icon
+2020-08-31 17:29:02,152 [12] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:3308/ProjectManage/Index?newSearchFlag=true  
+2020-08-31 17:29:02,155 [12] INFO  Microsoft.AspNetCore.Authorization.DefaultAuthorizationService - Authorization was successful.
+2020-08-31 17:29:02,156 [12] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'gp_admin_Code.Controllers.ProjectManageController.Index (gp_admin_Code)'
+2020-08-31 17:29:02,157 [12] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "ProjectManage"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller gp_admin_Code.Controllers.ProjectManageController (gp_admin_Code).
+2020-08-31 17:29:03,408 [12] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+2020-08-31 17:29:03,575 [12] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 166.7213ms.
+2020-08-31 17:29:03,575 [12] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action gp_admin_Code.Controllers.ProjectManageController.Index (gp_admin_Code) in 1417.6213ms
+2020-08-31 17:29:03,576 [12] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'gp_admin_Code.Controllers.ProjectManageController.Index (gp_admin_Code)'
+2020-08-31 17:29:03,577 [12] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1424.801ms 200 text/html; charset=utf-8
+2020-08-31 17:29:08,897 [12] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:3308/ProjectManage/Edit?id=24  
+2020-08-31 17:29:08,903 [12] INFO  Microsoft.AspNetCore.Authorization.DefaultAuthorizationService - Authorization was successful.
+2020-08-31 17:29:08,905 [12] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'gp_admin_Code.Controllers.ProjectManageController.Edit (gp_admin_Code)'
+2020-08-31 17:29:08,909 [12] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "Edit", controller = "ProjectManage"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Edit() on controller gp_admin_Code.Controllers.ProjectManageController (gp_admin_Code).
+2020-08-31 17:29:08,914 [12] INFO  Microsoft.AspNetCore.Session.DistributedSession - Accessing expired session, Key:599ade6f-010c-a350-f647-f9d9f875f8a8
+2020-08-31 17:29:08,955 [12] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Edit.
+2020-08-31 17:29:09,000 [12] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Edit executed in 44.7429ms.
+2020-08-31 17:29:09,000 [12] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action gp_admin_Code.Controllers.ProjectManageController.Edit (gp_admin_Code) in 91.0345ms
+2020-08-31 17:29:09,001 [12] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'gp_admin_Code.Controllers.ProjectManageController.Edit (gp_admin_Code)'
+2020-08-31 17:29:09,002 [12] INFO  Microsoft.AspNetCore.Session.DistributedSession - Session started; Key:599ade6f-010c-a350-f647-f9d9f875f8a8, Id:0bd88aad-7e16-fef9-47e4-69df0bedc47c
+2020-08-31 17:29:09,003 [12] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 105.7034ms 200 text/html; charset=utf-8
+2020-08-31 17:29:09,022 [12] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:3308/lib/jquery/dist/jquery.js  
+2020-08-31 17:29:09,049 [7] INFO  Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'D:\迅雷下载\gp_admin_Code\gp_admin_Code\wwwroot\lib\jquery\dist\jquery.js'
+2020-08-31 17:29:09,050 [7] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 27.9605ms 200 application/javascript
+2020-08-31 17:29:35,941 [1] INFO  Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-08-31 17:29:36,084 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2020-08-31 17:29:36,085 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-08-31 17:29:36,086 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-08-31 17:29:36,087 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\迅雷下载\gp_admin_Code\gp_admin_Code
+2020-08-31 17:29:39,486 [2] INFO  Microsoft.Hosting.Lifetime - Application is shutting down...
+2020-08-31 17:42:43,135 [1] INFO  Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-08-31 17:42:43,280 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-08-31 17:42:43,280 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-08-31 17:42:43,281 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\迅雷下载\gp_admin_Code\gp_admin_Code
+2020-08-31 17:42:43,298 [6] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:3308/  
+2020-08-31 17:42:43,336 [6] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'gp_admin_Code.Controllers.LoginController.Login (gp_admin_Code)'
+2020-08-31 17:42:43,358 [6] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller gp_admin_Code.Controllers.LoginController (gp_admin_Code).
+2020-08-31 17:42:43,493 [6] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+2020-08-31 17:42:43,537 [6] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 47.1049ms.
+2020-08-31 17:42:43,538 [6] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action gp_admin_Code.Controllers.LoginController.Login (gp_admin_Code) in 179.693ms
+2020-08-31 17:42:43,539 [6] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'gp_admin_Code.Controllers.LoginController.Login (gp_admin_Code)'
+2020-08-31 17:42:43,546 [6] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 247.9832ms 200 text/html; charset=utf-8
+2020-08-31 17:42:44,327 [9] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:3308/favicon.ico  
+2020-08-31 17:42:44,342 [6] INFO  Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon.ico'. Physical path: 'D:\迅雷下载\gp_admin_Code\gp_admin_Code\wwwroot\favicon.ico'
+2020-08-31 17:42:44,343 [6] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 16.199ms 200 image/x-icon
+2020-08-31 17:43:08,539 [11] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:3308/  
+2020-08-31 17:43:08,545 [11] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'gp_admin_Code.Controllers.LoginController.Login (gp_admin_Code)'
+2020-08-31 17:43:08,547 [11] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller gp_admin_Code.Controllers.LoginController (gp_admin_Code).
+2020-08-31 17:43:08,550 [11] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+2020-08-31 17:43:08,552 [11] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 2.3905ms.
+2020-08-31 17:43:08,553 [11] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action gp_admin_Code.Controllers.LoginController.Login (gp_admin_Code) in 5.0838ms
+2020-08-31 17:43:08,553 [11] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'gp_admin_Code.Controllers.LoginController.Login (gp_admin_Code)'
+2020-08-31 17:43:08,554 [11] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 15.9042ms 200 text/html; charset=utf-8
+2020-08-31 17:43:10,764 [8] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:3308/Login/LoginDo application/x-www-form-urlencoded 36
+2020-08-31 17:43:10,770 [8] INFO  Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware - No CORS policy found for the specified request.
+2020-08-31 17:43:10,771 [8] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'gp_admin_Code.Controllers.LoginController.LoginDoAsync (gp_admin_Code)'
+2020-08-31 17:43:10,788 [8] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "LoginDo", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginDoAsync(System.String, System.String) on controller gp_admin_Code.Controllers.LoginController (gp_admin_Code).
+2020-08-31 17:43:11,982 [8] INFO  Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler - AuthenticationScheme: CookieAuthentication signed in.
+2020-08-31 17:43:12,165 [8] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /Roles/Index.
+2020-08-31 17:43:12,166 [8] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action gp_admin_Code.Controllers.LoginController.LoginDoAsync (gp_admin_Code) in 1376.8319ms
+2020-08-31 17:43:12,166 [8] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'gp_admin_Code.Controllers.LoginController.LoginDoAsync (gp_admin_Code)'
+2020-08-31 17:43:12,167 [8] INFO  Microsoft.AspNetCore.Session.DistributedSession - Session started; Key:23236aff-8939-5704-6bd7-6b9eb153e777, Id:911571b9-cf53-36b0-8f5b-cee51b230871
+2020-08-31 17:43:12,169 [8] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1405.3056ms 302 
+2020-08-31 17:43:12,172 [17] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:3308/Roles/Index  
+2020-08-31 17:43:12,181 [17] INFO  Microsoft.AspNetCore.Authorization.DefaultAuthorizationService - Authorization was successful.
+2020-08-31 17:43:12,182 [17] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'gp_admin_Code.Controllers.RolesController.Index (gp_admin_Code)'
+2020-08-31 17:43:12,184 [17] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Roles"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller gp_admin_Code.Controllers.RolesController (gp_admin_Code).
+2020-08-31 17:43:12,186 [17] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+2020-08-31 17:43:12,195 [17] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 10.1107ms.
+2020-08-31 17:43:12,196 [17] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action gp_admin_Code.Controllers.RolesController.Index (gp_admin_Code) in 11.6223ms
+2020-08-31 17:43:12,196 [17] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'gp_admin_Code.Controllers.RolesController.Index (gp_admin_Code)'
+2020-08-31 17:43:12,197 [17] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 24.5482ms 200 text/html; charset=utf-8
+2020-08-31 17:43:12,220 [13] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:3308/Roles/Main  
+2020-08-31 17:43:12,220 [17] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:3308/Roles/Left  
+2020-08-31 17:43:12,220 [12] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:3308/Roles/Top  
+2020-08-31 17:43:12,223 [13] INFO  Microsoft.AspNetCore.Authorization.DefaultAuthorizationService - Authorization was successful.
+2020-08-31 17:43:12,223 [12] INFO  Microsoft.AspNetCore.Authorization.DefaultAuthorizationService - Authorization was successful.
+2020-08-31 17:43:12,224 [12] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'gp_admin_Code.Controllers.RolesController.Top (gp_admin_Code)'
+2020-08-31 17:43:12,223 [13] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'gp_admin_Code.Controllers.RolesController.Main (gp_admin_Code)'
+2020-08-31 17:43:12,223 [17] INFO  Microsoft.AspNetCore.Authorization.DefaultAuthorizationService - Authorization was successful.
+2020-08-31 17:43:12,225 [13] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "Main", controller = "Roles"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Main() on controller gp_admin_Code.Controllers.RolesController (gp_admin_Code).
+2020-08-31 17:43:12,225 [12] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "Top", controller = "Roles"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Top() on controller gp_admin_Code.Controllers.RolesController (gp_admin_Code).
+2020-08-31 17:43:12,225 [17] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'gp_admin_Code.Controllers.RolesController.Left (gp_admin_Code)'
+2020-08-31 17:43:12,227 [13] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Main.
+2020-08-31 17:43:12,227 [12] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Top.
+2020-08-31 17:43:12,228 [17] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "Left", controller = "Roles"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Left() on controller gp_admin_Code.Controllers.RolesController (gp_admin_Code).
+2020-08-31 17:43:12,230 [13] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Main executed in 3.5452ms.
+2020-08-31 17:43:12,230 [12] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Top executed in 3.7251ms.
+2020-08-31 17:43:12,231 [12] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action gp_admin_Code.Controllers.RolesController.Top (gp_admin_Code) in 4.6801ms
+2020-08-31 17:43:12,231 [12] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'gp_admin_Code.Controllers.RolesController.Top (gp_admin_Code)'
+2020-08-31 17:43:12,232 [12] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 11.7153ms 200 text/html; charset=utf-8
+2020-08-31 17:43:12,230 [13] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action gp_admin_Code.Controllers.RolesController.Main (gp_admin_Code) in 4.7106ms
+2020-08-31 17:43:12,233 [13] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'gp_admin_Code.Controllers.RolesController.Main (gp_admin_Code)'
+2020-08-31 17:43:12,234 [13] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 13.5057ms 200 text/html; charset=utf-8
+2020-08-31 17:43:12,338 [17] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Left.
+2020-08-31 17:43:12,342 [17] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Left executed in 4.5ms.
+2020-08-31 17:43:12,343 [17] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action gp_admin_Code.Controllers.RolesController.Left (gp_admin_Code) in 113.934ms
+2020-08-31 17:43:12,343 [17] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'gp_admin_Code.Controllers.RolesController.Left (gp_admin_Code)'
+2020-08-31 17:43:12,345 [17] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 124.7905ms 200 text/html; charset=utf-8

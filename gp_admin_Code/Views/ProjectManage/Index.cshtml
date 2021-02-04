@@ -1,0 +1,61 @@
+﻿@model IEnumerable<gp_DataBase.unified_users_Models.NtProjectmanage>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                ID
+            </th>
+            <th>
+                项目是否关闭
+            </th>
+            <th>
+                项目名称
+            </th>
+            <th>
+                项目域名
+            </th>
+            <th>
+                操作人
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @(item.IsClose.ToString()=="1"?"是":"否")
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Dnsurl)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.names)
+            </td>
+            <td>
+                @if (!string.IsNullOrWhiteSpace(ViewBag.isadmin?.Tostring()) && ViewBag.isadmin?.Tostring() == "1")
+                {
+                    <a href="/ProjectManage/Edit?id=@item.Id&isadmin=1">修改</a>
+                    <a href="/ProjectManage/Delete?id=@item.Id&isadmin=1" target="_self">删除</a>
+                }
+                else
+                {
+                    <a href="/ProjectManage/Edit?id=@item.Id">修改</a>
+                    <a href="/ProjectManage/Delete?id=@item.Id" target="_self">删除</a>
+                    <a href="/ProjectManage/Details?id=@item.Id">预览</a>
+                }
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

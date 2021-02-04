@@ -1,0 +1,289 @@
+﻿@model gp_DataBase.unified_users_Models.NtProjectmanage
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script>
+    $(function () {
+        var isadmin = $("#isadmin").val();
+        if (isadmin != "1") {
+            $("#tr_bookid").hide();
+            $("#tr_description").hide();
+            $("#tr_set").hide();
+            $("#tr1").hide();
+            $("#tr2").hide();
+            $("#tr4").hide();
+            $("#tr5").hide();
+            $("#tr6").hide();
+            $("#tr7").hide();
+            $("#tr8").hide();
+            $("#tr13").hide();
+            $("#tr9").hide();
+            $("#tr10").hide();
+            $("#tr14").hide();
+            $("#tr15").hide();
+            $("#tr12").hide();
+        }
+        if ($("#id").val() > 0) {
+            $("#project_type").attr("disabled", "disabled");
+        }
+    });
+    
+</script>
+<form action="EditSave" method="post">
+    @{Html.RenderPartial("Token");}
+    <input type="hidden" id="id" name="id" value="@Model.Id" />
+    <input type="hidden" name="input_user_id" value="@Model.InputUserId" />
+    <input type="hidden" name="input_time" value="@Model.InputTime" />
+    <table width="95%" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+            <td>
+                <table>
+                    <tr>
+                        <td class="tableForm_leftTop">
+                            &nbsp;
+                        </td>
+                        <td class="tableForm_middleTop">
+                            项目编辑
+                        </td>
+                        <td class="tableForm_rightTop">
+                            &nbsp;
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @if (ViewBag.isadmin != null && ViewBag.isadmin.ToString() == "1")
+                {
+                    <input type="hidden" name="isadmin" id="isadmin" value="1" />
+                }
+                <table>
+                    <tr>
+                        <td class="tableTd">
+                            <span class="red">*</span>项目名称：
+                        </td>
+                        <td>
+                            @Html.TextBox("name", Model.Name, new { size = "50" })
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tableTd">
+                            <span class="red">*</span>项目图片：
+                        </td>
+                        <td>
+                            @*<img id="img_src" name="img_src" src="<%=Model.image%>" width="150" height="150" />
+                                <input type="file" id="images_src" name="images_src" value="<%=Training.Controllers.CommonController.imgurl_small(Model.image,0)%>" />
+                                <input type="hidden" id="image" name="image" value="<%=Model.image%>" />
+                                <input type="button" id="btn_upload" value="上传" onclick="FileUpload()" />*@
+                        </td>
+                    </tr>
+                    <tr id="tr_set">
+                        <td class="tableTd">
+                            学科：
+                        </td>
+                        <td>
+                            <textarea rows="3" cols="45" id="science_names" name="science_names" readonly="readonly">@Model.ScienceNames</textarea>
+                            <input type="hidden" id="science_ids" name="science_ids" value="@Model.ScienceIds" />
+                            <input type="button" id="select_tea" value="选择" onclick="selectSubject()" />
+                        </td>
+                    </tr>
+                    <tr id="tr1">
+                        <td class="tableTd">
+                            区县：
+                        </td>
+                        <td>
+                            <textarea rows="3" cols="45" id="provinceName" name="districtcounty_names" readonly="readonly">@Model.DistrictcountyNames</textarea>
+                            <input type="hidden" id="province_id" name="districtcounty_ids" value="@Model.DistrictcountyNames" />
+                            <input type="button" id="Button1" value="选择" onclick="selectSubject_province()" />
+                        </td>
+                    </tr>
+                    <tr id="tr2">
+                        <td class="tableTd">
+                            主线：
+                        </td>
+                        <td>
+                            <textarea rows="3" cols="45" id="mainnum_names" name="mainnum_names" readonly="readonly">@Model.MainnumNames</textarea>
+                            <input type="hidden" id="mainnum_ids" name="mainnum_ids" value="@Model.MainnumIds" />
+                            <input type="button" id="Button2" value="选择" onclick="selectSubject_mainnum()" />
+                        </td>
+                    </tr>
+                    <tr id="tr3">
+                        <td class="tableTd">
+                            管理员：
+                        </td>
+                        <td>
+                            <textarea rows="3" cols="45" id="admin_names" name="admin_names" readonly="readonly">@Model.AdminNames</textarea>
+                            <input type="hidden" id="admin_ids" name="admin_ids" value="@Model.AdminIds" />
+                            <input type="button" id="Button3" value="选择" onclick="selectSubject_admin()" />
+                        </td>
+                    </tr>
+                    <tr id="tr_bookid">
+                        <td class='tableTd'>
+                            选择必修课：
+                        </td>
+                        <td>
+                            <textarea rows="3" cols="45" id="required_course_name" readonly="readonly">@ViewData["required_course"]</textarea>
+                            <input type="button" id="select_book" value="选择" onclick="select_dis()" />
+                            <input type="hidden" name="required_course" id="required_course" value="@Model.RequiredCourse" />
+                        </td>
+                    </tr>
+                    <tr style="margin-top: 10px" id="tr_description">
+                        <td class="tableTd">
+                            <span class="red">*</span>项目描述：
+                        </td>
+                        <td>
+                            <textarea rows="3" cols="45" id="description" name="description">@Model.Description</textarea>
+                        </td>
+                    </tr>
+                    <tr id="tr_object">
+                        <td class="tableTd">
+                            <span class="red">*</span> 项目域名：
+                        </td>
+                        <td>
+                            @Html.TextBox("dnsurl", Model.Dnsurl)
+                        </td>
+                    </tr>
+                    <tr id="tr4">
+                        <td class="tableTd">
+                            <span class="red">*</span> 学员身份名称：
+                        </td>
+                        <td>
+                            @Html.TextBox("usertype1", string.IsNullOrEmpty(Model.Usertype1) ? "学员" : Model.Usertype1)
+                        </td>
+                    </tr>
+                    <tr id="tr5">
+                        <td class="tableTd">
+                            <span class="red">*</span> 组长身份名称：
+                        </td>
+                        <td>
+                            @Html.TextBox("usertype8", string.IsNullOrEmpty(Model.Usertype8) ? "组长" : Model.Usertype8)
+                        </td>
+                    </tr>
+                    <tr id="tr6">
+                        <td class="tableTd">
+                            <span class="red">*</span> 坊主身份名称：
+                        </td>
+                        <td>
+                            @Html.TextBox("usertype6", string.IsNullOrEmpty(Model.Usertype6) ? "坊主" : Model.Usertype6)
+                        </td>
+                    </tr>
+                    <tr id="tr7">
+                        <td class="tableTd">
+                            <span class="red">*</span> 校长身份名称：
+                        </td>
+                        <td>
+                            @Html.TextBox("usertype7", string.IsNullOrEmpty(Model.Usertype7) ? "校长" : Model.Usertype7)
+                        </td>
+                    </tr>
+                    <tr id="tr8">
+                        <td class="tableTd">
+                            <span class="red">*</span> 区县管理员身份名称：
+                        </td>
+                        <td>
+
+                            @Html.TextBox("usertype5", string.IsNullOrEmpty(Model.Usertype5) ? "区县管理员" : Model.Usertype5);
+                        </td>
+                    </tr>
+                    <tr id="tr11">
+                        <td class="tableTd">
+                            <span class="red">*</span> 项目类型：
+                        </td>
+                        <td>
+                            <select id="project_type" name="project_type ">
+                                @*@ViewBag.project_type*@
+                                   @Html.Raw(System.Web.HttpUtility.UrlDecode(Model.project_type)) 
+                            </select>
+                        </td>
+                    </tr>
+                    <tr id="tr13">
+                        <td class="tableTd">
+                            <span class="red">*</span> 项目开始年份：
+                        </td>
+                        <td>
+                            <select id="start_year" name="StartYear">
+                                @*Training.Controllers.ProjectManageController.get_years(Model.start_year, true, 1)*@
+                                @Model.StartYear
+                            </select>
+                        </td>
+                    </tr>
+                    <tr id="tr9">
+                        <td class="tableTd">
+                            <span class="red">*</span> 组长是否有权限修改学员主线：
+                        </td>
+                        <td>
+                            <select id="is_select_mainnum" name="IsSelectMainnum">
+                                @if (Model.Id > 0)
+                                {
+                                    <option value="1" selected="@(Model.IsSelectMainnum.ToString() == "1" ? true : false)">是</option>
+                                    <option value="0" selected="@(Model.IsSelectMainnum.ToString() != "1" ? true : false)">否</option>
+                                }
+                                else
+                                {
+                                    <option value="1" selected="selected">是</option>
+                                    <option value="0">否</option>
+                                }
+                            </select>
+                        </td>
+                    </tr>
+                    <tr id="tr10">
+                        <td class="tableTd">
+                            <span class="red">*</span> 坊主是否有学习任务：
+                        </td>
+                        <td>
+                            <select id="is_learning_tasks" name="IsLearningTasks">
+                                @if (Model.Id > 0)
+                                {
+                                    <option value="1" selected="@(Model.IsLearningTasks.ToString() == "1" ? true : false)">是</option>
+                                    <option value="0" selected="@(Model.IsLearningTasks.ToString() != "1" ? true : false)">否</option>
+                                }
+                                else
+                                {
+                                    <option value="1" selected="selected">是</option>
+                                    <option value="0">否</option>
+                                }
+                            </select>
+                        </td>
+                    </tr>
+                    <tr id="tr14">
+                        <td class="tableTd">
+                            <span class="red">*</span> 是否关闭项目：
+                        </td>
+                        <td>
+                            <select id="is_close" name="IsClose">
+                                <option value="1" selected="@(Model.IsClose.ToString() == "1" ? true : false)">是</option>
+                                <option value="0" selected="@(Model.IsClose.ToString() != "1" ? true : false)">否</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr id="tr15">
+                        <td class="tableTd">
+                            <span class="red">*</span> 是否需要付费：
+                        </td>
+                        <td>
+                            <select id="project_pay" name="ProjectPay">
+                                <option value="1" selected="@(Model.ProjectPay.ToString() == "1" ? true : false)">是</option>
+                                <option value="0" selected="@(Model.ProjectPay.ToString() != "1" ? true : false)">否</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr id="tr12">
+                        <td class="tableTd">
+                            <span class="red">*</span> 毕业要求：
+                        </td>
+                        <td>
+                            <input type="text" name="FinishDemand" id="finish_demand" value="@Model.FinishDemand"
+                                   size="50" />
+                        </td>
+                    </tr>
+
+                </table>
+            </td>
+        </tr>
+    </table>
+    <input type="submit" value="提交" />
+</form>
+

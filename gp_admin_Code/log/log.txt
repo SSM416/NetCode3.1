@@ -1,0 +1,337 @@
+2020-09-03 14:40:57,694 [1] INFO  Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-09-03 14:40:57,964 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-09-03 14:40:57,967 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-09-03 14:40:57,976 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\迅雷下载\gp_admin_Code\gp_admin_Code
+2020-09-03 14:40:58,007 [9] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:3308/  
+2020-09-03 14:40:58,055 [9] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'gp_admin_Code.Controllers.LoginController.Login (gp_admin_Code)'
+2020-09-03 14:40:58,079 [9] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller gp_admin_Code.Controllers.LoginController (gp_admin_Code).
+2020-09-03 14:40:58,382 [9] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+2020-09-03 14:40:58,460 [9] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 80.8126ms.
+2020-09-03 14:40:58,465 [9] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action gp_admin_Code.Controllers.LoginController.Login (gp_admin_Code) in 381.4368ms
+2020-09-03 14:40:58,470 [9] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'gp_admin_Code.Controllers.LoginController.Login (gp_admin_Code)'
+2020-09-03 14:40:58,481 [9] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 474.8762ms 200 text/html; charset=utf-8
+2020-09-03 14:40:58,515 [4] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:3308/lib/jquery/dist/jquery.js  
+2020-09-03 14:40:58,558 [14] INFO  Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'D:\迅雷下载\gp_admin_Code\gp_admin_Code\wwwroot\lib\jquery\dist\jquery.js'
+2020-09-03 14:40:58,561 [14] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 51.4434ms 200 application/javascript
+2020-09-03 14:41:14,657 [1] INFO  Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-09-03 14:41:14,798 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-09-03 14:41:14,798 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-09-03 14:41:14,799 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\迅雷下载\gp_admin_Code\gp_admin_Code
+2020-09-03 14:41:14,819 [7] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:3308/  
+2020-09-03 14:41:14,866 [7] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'gp_admin_Code.Controllers.LoginController.Login (gp_admin_Code)'
+2020-09-03 14:41:14,887 [7] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller gp_admin_Code.Controllers.LoginController (gp_admin_Code).
+2020-09-03 14:41:15,026 [7] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+2020-09-03 14:41:15,074 [7] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 50.4715ms.
+2020-09-03 14:41:15,074 [7] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action gp_admin_Code.Controllers.LoginController.Login (gp_admin_Code) in 187.0594ms
+2020-09-03 14:41:15,075 [7] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'gp_admin_Code.Controllers.LoginController.Login (gp_admin_Code)'
+2020-09-03 14:41:15,082 [7] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 263.7709ms 200 text/html; charset=utf-8
+2020-09-03 14:41:15,126 [7] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:3308/lib/jquery/dist/jquery.js  
+2020-09-03 14:41:15,141 [13] INFO  Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'D:\迅雷下载\gp_admin_Code\gp_admin_Code\wwwroot\lib\jquery\dist\jquery.js'
+2020-09-03 14:41:15,142 [13] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 15.864ms 200 application/javascript
+2020-09-03 14:41:24,242 [1] INFO  Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-09-03 14:41:24,476 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-09-03 14:41:24,484 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-09-03 14:41:24,492 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\迅雷下载\gp_admin_Code\gp_admin_Code
+2020-09-03 14:41:24,523 [10] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:3308/  
+2020-09-03 14:41:24,575 [10] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'gp_admin_Code.Controllers.LoginController.Login (gp_admin_Code)'
+2020-09-03 14:41:24,599 [10] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller gp_admin_Code.Controllers.LoginController (gp_admin_Code).
+2020-09-03 14:41:24,883 [10] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+2020-09-03 14:41:24,969 [10] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 86.8726ms.
+2020-09-03 14:41:24,972 [10] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action gp_admin_Code.Controllers.LoginController.Login (gp_admin_Code) in 370.1156ms
+2020-09-03 14:41:24,976 [10] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'gp_admin_Code.Controllers.LoginController.Login (gp_admin_Code)'
+2020-09-03 14:41:24,988 [10] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 464.2597ms 200 text/html; charset=utf-8
+2020-09-03 14:41:25,008 [13] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:3308/lib/jquery/dist/jquery.js  
+2020-09-03 14:41:25,041 [12] INFO  Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'D:\迅雷下载\gp_admin_Code\gp_admin_Code\wwwroot\lib\jquery\dist\jquery.js'
+2020-09-03 14:41:25,044 [12] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 37.7844ms 200 application/javascript
+2020-09-03 14:41:35,909 [1] INFO  Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-09-03 14:41:36,131 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-09-03 14:41:36,141 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-09-03 14:41:36,149 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\迅雷下载\gp_admin_Code\gp_admin_Code
+2020-09-03 14:41:36,178 [9] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:3308/  
+2020-09-03 14:41:36,226 [9] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'gp_admin_Code.Controllers.LoginController.Login (gp_admin_Code)'
+2020-09-03 14:41:36,253 [9] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller gp_admin_Code.Controllers.LoginController (gp_admin_Code).
+2020-09-03 14:41:36,549 [9] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+2020-09-03 14:41:36,623 [9] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 80.2509ms.
+2020-09-03 14:41:36,626 [9] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action gp_admin_Code.Controllers.LoginController.Login (gp_admin_Code) in 370.0289ms
+2020-09-03 14:41:36,629 [9] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'gp_admin_Code.Controllers.LoginController.Login (gp_admin_Code)'
+2020-09-03 14:41:36,642 [9] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 461.2342ms 200 text/html; charset=utf-8
+2020-09-03 14:41:36,655 [12] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:3308/lib/jquery/dist/jquery.js  
+2020-09-03 14:41:36,690 [7] INFO  Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'D:\迅雷下载\gp_admin_Code\gp_admin_Code\wwwroot\lib\jquery\dist\jquery.js'
+2020-09-03 14:41:36,694 [7] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 43.9359ms 200 application/javascript
+2020-09-03 14:41:38,731 [4] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:3308/Login/LoginDo application/x-www-form-urlencoded 36
+2020-09-03 14:41:38,740 [4] INFO  Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware - No CORS policy found for the specified request.
+2020-09-03 14:41:38,744 [4] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'gp_admin_Code.Controllers.LoginController.LoginDoAsync (gp_admin_Code)'
+2020-09-03 14:41:38,819 [4] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "LoginDo", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginDoAsync(System.String, System.String) on controller gp_admin_Code.Controllers.LoginController (gp_admin_Code).
+2020-09-03 14:43:03,506 [4] ERROR Exercise.Services.LoginService - 登录过程中出错:An attempt was made to use the context while it is being configured. A DbContext instance cannot be used inside OnConfiguring since it is still being configured at this point. This can happen if a second operation is started on this context before a previous operation completed. Any instance members are not guaranteed to be thread safe.
+2020-09-03 14:43:03,515 [4] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.SystemTextJsonResultExecutor - Executing JsonResult, writing value of type '<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2020-09-03 14:43:03,558 [4] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action gp_admin_Code.Controllers.LoginController.LoginDoAsync (gp_admin_Code) in 84735.1867ms
+2020-09-03 14:43:03,561 [4] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'gp_admin_Code.Controllers.LoginController.LoginDoAsync (gp_admin_Code)'
+2020-09-03 14:43:03,564 [4] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 84831.8884ms 200 application/json; charset=utf-8
+2020-09-03 14:44:21,170 [1] INFO  Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-09-03 14:44:21,389 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-09-03 14:44:21,397 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-09-03 14:44:21,399 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\迅雷下载\gp_admin_Code\gp_admin_Code
+2020-09-03 14:44:21,432 [7] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:3308/  
+2020-09-03 14:44:21,480 [7] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'gp_admin_Code.Controllers.LoginController.Login (gp_admin_Code)'
+2020-09-03 14:44:21,505 [7] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller gp_admin_Code.Controllers.LoginController (gp_admin_Code).
+2020-09-03 14:44:21,784 [7] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+2020-09-03 14:44:21,862 [7] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 79.3409ms.
+2020-09-03 14:44:21,865 [7] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action gp_admin_Code.Controllers.LoginController.Login (gp_admin_Code) in 357.7497ms
+2020-09-03 14:44:21,870 [7] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'gp_admin_Code.Controllers.LoginController.Login (gp_admin_Code)'
+2020-09-03 14:44:21,888 [7] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 450.9162ms 200 text/html; charset=utf-8
+2020-09-03 14:44:21,906 [4] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:3308/lib/jquery/dist/jquery.js  
+2020-09-03 14:44:21,944 [10] INFO  Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'D:\迅雷下载\gp_admin_Code\gp_admin_Code\wwwroot\lib\jquery\dist\jquery.js'
+2020-09-03 14:44:21,946 [10] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 41.4624ms 200 application/javascript
+2020-09-03 14:44:33,095 [4] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:3308/Login/LoginDo application/x-www-form-urlencoded 36
+2020-09-03 14:44:33,104 [4] INFO  Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware - No CORS policy found for the specified request.
+2020-09-03 14:44:33,108 [4] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'gp_admin_Code.Controllers.LoginController.LoginDoAsync (gp_admin_Code)'
+2020-09-03 14:44:33,128 [4] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "LoginDo", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginDoAsync(System.String, System.String) on controller gp_admin_Code.Controllers.LoginController (gp_admin_Code).
+2020-09-03 14:46:15,128 [1] INFO  Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-09-03 14:46:15,268 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-09-03 14:46:15,269 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-09-03 14:46:15,269 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\迅雷下载\gp_admin_Code\gp_admin_Code
+2020-09-03 14:46:15,292 [6] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:3308/  
+2020-09-03 14:46:15,333 [6] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'gp_admin_Code.Controllers.LoginController.Login (gp_admin_Code)'
+2020-09-03 14:46:15,355 [6] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller gp_admin_Code.Controllers.LoginController (gp_admin_Code).
+2020-09-03 14:46:15,522 [6] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+2020-09-03 14:46:15,570 [6] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 50.1842ms.
+2020-09-03 14:46:15,571 [6] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action gp_admin_Code.Controllers.LoginController.Login (gp_admin_Code) in 215.1451ms
+2020-09-03 14:46:15,572 [6] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'gp_admin_Code.Controllers.LoginController.Login (gp_admin_Code)'
+2020-09-03 14:46:15,581 [6] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 289.5667ms 200 text/html; charset=utf-8
+2020-09-03 14:46:15,637 [6] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:3308/favicon.ico  
+2020-09-03 14:46:15,652 [7] INFO  Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon.ico'. Physical path: 'D:\迅雷下载\gp_admin_Code\gp_admin_Code\wwwroot\favicon.ico'
+2020-09-03 14:46:15,653 [7] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 15.8269ms 200 image/x-icon
+2020-09-03 14:46:21,850 [1] INFO  Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-09-03 14:46:22,082 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-09-03 14:46:22,092 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-09-03 14:46:22,101 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\迅雷下载\gp_admin_Code\gp_admin_Code
+2020-09-03 14:46:22,120 [9] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:3308/  
+2020-09-03 14:46:22,166 [9] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'gp_admin_Code.Controllers.LoginController.Login (gp_admin_Code)'
+2020-09-03 14:46:22,194 [9] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller gp_admin_Code.Controllers.LoginController (gp_admin_Code).
+2020-09-03 14:46:22,480 [9] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+2020-09-03 14:46:22,559 [9] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 80.877ms.
+2020-09-03 14:46:22,562 [9] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action gp_admin_Code.Controllers.LoginController.Login (gp_admin_Code) in 365.3365ms
+2020-09-03 14:46:22,565 [9] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'gp_admin_Code.Controllers.LoginController.Login (gp_admin_Code)'
+2020-09-03 14:46:22,586 [9] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 455.0835ms 200 text/html; charset=utf-8
+2020-09-03 14:46:22,595 [8] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:3308/lib/jquery/dist/jquery.js  
+2020-09-03 14:46:22,633 [7] INFO  Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'D:\迅雷下载\gp_admin_Code\gp_admin_Code\wwwroot\lib\jquery\dist\jquery.js'
+2020-09-03 14:46:22,636 [7] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 49.0044ms 200 application/javascript
+2020-09-03 14:46:25,850 [9] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:3308/Login/LoginDo application/x-www-form-urlencoded 36
+2020-09-03 14:46:25,860 [9] INFO  Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware - No CORS policy found for the specified request.
+2020-09-03 14:46:25,866 [9] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'gp_admin_Code.Controllers.LoginController.LoginDoAsync (gp_admin_Code)'
+2020-09-03 14:46:25,888 [9] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "LoginDo", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginDoAsync(System.String, System.String) on controller gp_admin_Code.Controllers.LoginController (gp_admin_Code).
+2020-09-03 14:46:54,469 [9] INFO  Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler - AuthenticationScheme: CookieAuthentication signed in.
+2020-09-03 14:47:19,661 [9] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /Roles/Index.
+2020-09-03 14:47:19,664 [9] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action gp_admin_Code.Controllers.LoginController.LoginDoAsync (gp_admin_Code) in 53771.8871ms
+2020-09-03 14:47:19,670 [9] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'gp_admin_Code.Controllers.LoginController.LoginDoAsync (gp_admin_Code)'
+2020-09-03 14:47:19,673 [9] INFO  Microsoft.AspNetCore.Session.DistributedSession - Session started; Key:dd915089-8b60-3543-8a66-b2ab4eaa81be, Id:ca22700b-99c1-39c7-2444-da9f23f25baa
+2020-09-03 14:47:19,681 [9] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 53837.6311ms 302 
+2020-09-03 14:47:19,685 [11] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:3308/Roles/Index  
+2020-09-03 14:47:19,696 [11] INFO  Microsoft.AspNetCore.Authorization.DefaultAuthorizationService - Authorization was successful.
+2020-09-03 14:47:19,698 [11] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'gp_admin_Code.Controllers.RolesController.Index (gp_admin_Code)'
+2020-09-03 14:47:19,702 [11] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Roles"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller gp_admin_Code.Controllers.RolesController (gp_admin_Code).
+2020-09-03 14:47:19,707 [11] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+2020-09-03 14:47:19,717 [11] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 9.2685ms.
+2020-09-03 14:47:19,720 [11] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action gp_admin_Code.Controllers.RolesController.Index (gp_admin_Code) in 14.6184ms
+2020-09-03 14:47:19,723 [11] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'gp_admin_Code.Controllers.RolesController.Index (gp_admin_Code)'
+2020-09-03 14:47:19,725 [11] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 40.8948ms 200 text/html; charset=utf-8
+2020-09-03 14:47:19,743 [7] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:3308/Roles/Left  
+2020-09-03 14:47:19,744 [10] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:3308/Roles/Main  
+2020-09-03 14:47:19,747 [4] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:3308/Roles/Top  
+2020-09-03 14:47:19,750 [4] INFO  Microsoft.AspNetCore.Authorization.DefaultAuthorizationService - Authorization was successful.
+2020-09-03 14:47:19,752 [7] INFO  Microsoft.AspNetCore.Authorization.DefaultAuthorizationService - Authorization was successful.
+2020-09-03 14:47:19,753 [10] INFO  Microsoft.AspNetCore.Authorization.DefaultAuthorizationService - Authorization was successful.
+2020-09-03 14:47:19,755 [4] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'gp_admin_Code.Controllers.RolesController.Top (gp_admin_Code)'
+2020-09-03 14:47:19,757 [7] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'gp_admin_Code.Controllers.RolesController.Left (gp_admin_Code)'
+2020-09-03 14:47:19,759 [10] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'gp_admin_Code.Controllers.RolesController.Main (gp_admin_Code)'
+2020-09-03 14:47:19,762 [7] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "Left", controller = "Roles"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Left() on controller gp_admin_Code.Controllers.RolesController (gp_admin_Code).
+2020-09-03 14:47:19,765 [10] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "Main", controller = "Roles"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Main() on controller gp_admin_Code.Controllers.RolesController (gp_admin_Code).
+2020-09-03 14:47:19,767 [4] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "Top", controller = "Roles"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Top() on controller gp_admin_Code.Controllers.RolesController (gp_admin_Code).
+2020-09-03 14:47:19,770 [10] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Main.
+2020-09-03 14:47:19,772 [4] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Top.
+2020-09-03 14:47:19,777 [4] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Top executed in 6.6137ms.
+2020-09-03 14:47:19,780 [10] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Main executed in 6.7742ms.
+2020-09-03 14:47:19,784 [4] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action gp_admin_Code.Controllers.RolesController.Top (gp_admin_Code) in 12.1948ms
+2020-09-03 14:47:19,786 [10] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action gp_admin_Code.Controllers.RolesController.Main (gp_admin_Code) in 14.6626ms
+2020-09-03 14:47:19,790 [4] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'gp_admin_Code.Controllers.RolesController.Top (gp_admin_Code)'
+2020-09-03 14:47:19,791 [10] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'gp_admin_Code.Controllers.RolesController.Main (gp_admin_Code)'
+2020-09-03 14:47:19,793 [4] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 49.8047ms 200 text/html; charset=utf-8
+2020-09-03 14:47:19,795 [10] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 52.4284ms 200 text/html; charset=utf-8
+2020-09-03 14:47:20,011 [7] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Left.
+2020-09-03 14:47:20,019 [7] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Left executed in 8.9757ms.
+2020-09-03 14:47:20,022 [7] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action gp_admin_Code.Controllers.RolesController.Left (gp_admin_Code) in 257.964ms
+2020-09-03 14:47:20,024 [7] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'gp_admin_Code.Controllers.RolesController.Left (gp_admin_Code)'
+2020-09-03 14:47:20,029 [7] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 286.0719ms 200 text/html; charset=utf-8
+2020-09-03 14:48:22,232 [1] INFO  Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-09-03 14:48:22,458 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-09-03 14:48:22,467 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-09-03 14:48:22,475 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\迅雷下载\gp_admin_Code\gp_admin_Code
+2020-09-03 14:48:22,502 [8] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:3308/  
+2020-09-03 14:48:22,548 [8] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'gp_admin_Code.Controllers.LoginController.Login (gp_admin_Code)'
+2020-09-03 14:48:22,572 [8] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller gp_admin_Code.Controllers.LoginController (gp_admin_Code).
+2020-09-03 14:48:22,860 [8] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+2020-09-03 14:48:22,936 [8] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 78.1435ms.
+2020-09-03 14:48:22,939 [8] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action gp_admin_Code.Controllers.LoginController.Login (gp_admin_Code) in 363.6242ms
+2020-09-03 14:48:22,944 [8] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'gp_admin_Code.Controllers.LoginController.Login (gp_admin_Code)'
+2020-09-03 14:48:22,956 [8] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 455.8385ms 200 text/html; charset=utf-8
+2020-09-03 14:48:22,974 [9] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:3308/lib/jquery/dist/jquery.js  
+2020-09-03 14:48:23,015 [10] INFO  Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'D:\迅雷下载\gp_admin_Code\gp_admin_Code\wwwroot\lib\jquery\dist\jquery.js'
+2020-09-03 14:48:23,020 [10] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 46.217ms 200 application/javascript
+2020-09-03 14:48:27,745 [4] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:3308/Login/LoginDo application/x-www-form-urlencoded 36
+2020-09-03 14:48:27,755 [4] INFO  Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware - No CORS policy found for the specified request.
+2020-09-03 14:48:27,762 [4] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'gp_admin_Code.Controllers.LoginController.LoginDoAsync (gp_admin_Code)'
+2020-09-03 14:48:27,783 [4] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "LoginDo", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginDoAsync(System.String, System.String) on controller gp_admin_Code.Controllers.LoginController (gp_admin_Code).
+2020-09-03 14:48:31,991 [4] INFO  Microsoft.AspNetCore.Session.DistributedSession - Accessing expired session, Key:dd915089-8b60-3543-8a66-b2ab4eaa81be
+2020-09-03 14:48:48,822 [4] INFO  Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler - AuthenticationScheme: CookieAuthentication signed in.
+2020-09-03 14:56:48,663 [1] INFO  Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-09-03 14:56:48,887 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-09-03 14:56:48,896 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-09-03 14:56:48,904 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\迅雷下载\gp_admin_Code\gp_admin_Code
+2020-09-03 14:56:48,930 [9] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:3308/  
+2020-09-03 14:56:48,981 [9] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'gp_admin_Code.Controllers.LoginController.Login (gp_admin_Code)'
+2020-09-03 14:56:49,009 [9] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller gp_admin_Code.Controllers.LoginController (gp_admin_Code).
+2020-09-03 14:56:49,304 [9] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+2020-09-03 14:56:49,386 [9] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 85.462ms.
+2020-09-03 14:56:49,392 [9] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action gp_admin_Code.Controllers.LoginController.Login (gp_admin_Code) in 377.5618ms
+2020-09-03 14:56:49,400 [9] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'gp_admin_Code.Controllers.LoginController.Login (gp_admin_Code)'
+2020-09-03 14:56:49,420 [9] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 480.9174ms 200 text/html; charset=utf-8
+2020-09-03 14:56:49,443 [12] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:3308/lib/jquery/dist/jquery.js  
+2020-09-03 14:56:49,486 [10] INFO  Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'D:\迅雷下载\gp_admin_Code\gp_admin_Code\wwwroot\lib\jquery\dist\jquery.js'
+2020-09-03 14:56:49,488 [10] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 48.0841ms 200 application/javascript
+2020-09-03 14:56:54,290 [7] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:3308/Login/LoginDo application/x-www-form-urlencoded 36
+2020-09-03 14:56:54,299 [7] INFO  Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware - No CORS policy found for the specified request.
+2020-09-03 14:56:54,305 [7] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'gp_admin_Code.Controllers.LoginController.LoginDoAsync (gp_admin_Code)'
+2020-09-03 14:56:54,326 [7] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "LoginDo", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginDoAsync(System.String, System.String) on controller gp_admin_Code.Controllers.LoginController (gp_admin_Code).
+2020-09-03 14:57:01,913 [7] INFO  Microsoft.AspNetCore.Session.DistributedSession - Accessing expired session, Key:dd915089-8b60-3543-8a66-b2ab4eaa81be
+2020-09-03 15:01:29,244 [1] INFO  Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-09-03 15:01:29,480 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-09-03 15:01:29,488 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-09-03 15:01:29,498 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\迅雷下载\gp_admin_Code\gp_admin_Code
+2020-09-03 15:01:29,525 [5] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:3308/  
+2020-09-03 15:01:29,572 [5] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'gp_admin_Code.Controllers.LoginController.Login (gp_admin_Code)'
+2020-09-03 15:01:29,596 [5] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller gp_admin_Code.Controllers.LoginController (gp_admin_Code).
+2020-09-03 15:01:29,907 [5] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+2020-09-03 15:01:29,987 [5] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 84.5006ms.
+2020-09-03 15:01:29,990 [5] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action gp_admin_Code.Controllers.LoginController.Login (gp_admin_Code) in 390.956ms
+2020-09-03 15:01:29,995 [5] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'gp_admin_Code.Controllers.LoginController.Login (gp_admin_Code)'
+2020-09-03 15:01:30,006 [5] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 481.1963ms 200 text/html; charset=utf-8
+2020-09-03 15:01:30,048 [10] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:3308/lib/jquery/dist/jquery.js  
+2020-09-03 15:01:30,076 [12] INFO  Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'D:\迅雷下载\gp_admin_Code\gp_admin_Code\wwwroot\lib\jquery\dist\jquery.js'
+2020-09-03 15:01:30,079 [12] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 39.7815ms 200 application/javascript
+2020-09-03 15:01:32,363 [8] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:3308/Login/LoginDo application/x-www-form-urlencoded 36
+2020-09-03 15:01:32,372 [8] INFO  Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware - No CORS policy found for the specified request.
+2020-09-03 15:01:32,378 [8] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'gp_admin_Code.Controllers.LoginController.LoginDoAsync (gp_admin_Code)'
+2020-09-03 15:01:32,399 [8] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "LoginDo", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginDoAsync(System.String, System.String) on controller gp_admin_Code.Controllers.LoginController (gp_admin_Code).
+2020-09-03 15:01:34,245 [8] INFO  Microsoft.AspNetCore.Session.DistributedSession - Accessing expired session, Key:dd915089-8b60-3543-8a66-b2ab4eaa81be
+2020-09-03 15:10:12,833 [1] INFO  Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-09-03 15:10:13,053 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-09-03 15:10:13,064 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-09-03 15:10:13,070 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\迅雷下载\gp_admin_Code\gp_admin_Code
+2020-09-03 15:10:13,096 [10] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:3308/  
+2020-09-03 15:10:13,146 [10] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'gp_admin_Code.Controllers.LoginController.Login (gp_admin_Code)'
+2020-09-03 15:10:13,168 [10] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller gp_admin_Code.Controllers.LoginController (gp_admin_Code).
+2020-09-03 15:10:13,459 [10] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+2020-09-03 15:10:13,546 [10] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 91.3994ms.
+2020-09-03 15:10:13,549 [10] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action gp_admin_Code.Controllers.LoginController.Login (gp_admin_Code) in 377.5153ms
+2020-09-03 15:10:13,553 [10] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'gp_admin_Code.Controllers.LoginController.Login (gp_admin_Code)'
+2020-09-03 15:10:13,566 [10] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 467.5024ms 200 text/html; charset=utf-8
+2020-09-03 15:10:13,584 [8] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:3308/lib/jquery/dist/jquery.js  
+2020-09-03 15:10:13,616 [9] INFO  Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'D:\迅雷下载\gp_admin_Code\gp_admin_Code\wwwroot\lib\jquery\dist\jquery.js'
+2020-09-03 15:10:13,619 [9] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 38.212ms 200 application/javascript
+2020-09-03 15:10:38,961 [17] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:3308/Login/LoginDo application/x-www-form-urlencoded 36
+2020-09-03 15:10:38,977 [17] INFO  Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware - No CORS policy found for the specified request.
+2020-09-03 15:10:38,983 [17] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'gp_admin_Code.Controllers.LoginController.LoginDoAsync (gp_admin_Code)'
+2020-09-03 15:10:39,002 [17] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "LoginDo", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginDoAsync(System.String, System.String) on controller gp_admin_Code.Controllers.LoginController (gp_admin_Code).
+2020-09-03 15:10:42,690 [17] INFO  Microsoft.AspNetCore.Session.DistributedSession - Accessing expired session, Key:dd915089-8b60-3543-8a66-b2ab4eaa81be
+2020-09-03 15:22:36,065 [1] INFO  Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-09-03 15:22:36,307 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-09-03 15:22:36,320 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-09-03 15:22:36,325 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\迅雷下载\gp_admin_Code\gp_admin_Code
+2020-09-03 15:22:36,350 [13] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:3308/  
+2020-09-03 15:22:36,400 [13] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'gp_admin_Code.Controllers.LoginController.Login (gp_admin_Code)'
+2020-09-03 15:22:36,425 [13] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller gp_admin_Code.Controllers.LoginController (gp_admin_Code).
+2020-09-03 15:22:36,709 [13] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+2020-09-03 15:22:36,783 [13] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 75.6714ms.
+2020-09-03 15:22:36,788 [13] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action gp_admin_Code.Controllers.LoginController.Login (gp_admin_Code) in 357.8053ms
+2020-09-03 15:22:36,791 [13] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'gp_admin_Code.Controllers.LoginController.Login (gp_admin_Code)'
+2020-09-03 15:22:36,802 [13] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 451.4836ms 200 text/html; charset=utf-8
+2020-09-03 15:22:36,812 [8] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:3308/lib/jquery/dist/jquery.js  
+2020-09-03 15:22:36,853 [9] INFO  Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'D:\迅雷下载\gp_admin_Code\gp_admin_Code\wwwroot\lib\jquery\dist\jquery.js'
+2020-09-03 15:22:36,856 [9] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 50.1822ms 200 application/javascript
+2020-09-03 15:23:06,299 [18] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:3308/Login/LoginDo application/x-www-form-urlencoded 36
+2020-09-03 15:23:06,314 [18] INFO  Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware - No CORS policy found for the specified request.
+2020-09-03 15:23:06,324 [18] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'gp_admin_Code.Controllers.LoginController.LoginDoAsync (gp_admin_Code)'
+2020-09-03 15:23:06,344 [18] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "LoginDo", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginDoAsync(System.String, System.String) on controller gp_admin_Code.Controllers.LoginController (gp_admin_Code).
+2020-09-03 15:23:09,218 [18] INFO  Microsoft.AspNetCore.Session.DistributedSession - Accessing expired session, Key:dd915089-8b60-3543-8a66-b2ab4eaa81be
+2020-09-03 15:24:50,351 [18] ERROR Exercise.Services.LoginService - 登录过程中出错:Value cannot be null. (Parameter 'source')
+2020-09-03 15:24:54,224 [18] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.SystemTextJsonResultExecutor - Executing JsonResult, writing value of type '<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2020-09-03 15:24:54,302 [18] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action gp_admin_Code.Controllers.LoginController.LoginDoAsync (gp_admin_Code) in 107950.5524ms
+2020-09-03 15:24:54,305 [18] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'gp_admin_Code.Controllers.LoginController.LoginDoAsync (gp_admin_Code)'
+2020-09-03 15:24:54,308 [18] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 108008.1809ms 200 application/json; charset=utf-8
+2020-09-03 15:24:58,808 [18] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:3308/Login/LoginDo application/x-www-form-urlencoded 36
+2020-09-03 15:24:58,813 [18] INFO  Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware - No CORS policy found for the specified request.
+2020-09-03 15:24:58,817 [18] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'gp_admin_Code.Controllers.LoginController.LoginDoAsync (gp_admin_Code)'
+2020-09-03 15:24:58,820 [18] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "LoginDo", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginDoAsync(System.String, System.String) on controller gp_admin_Code.Controllers.LoginController (gp_admin_Code).
+2020-09-03 15:25:18,869 [18] INFO  Microsoft.AspNetCore.Session.DistributedSession - Accessing expired session, Key:dd915089-8b60-3543-8a66-b2ab4eaa81be
+2020-09-03 15:49:40,770 [1] INFO  Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-09-03 15:49:41,021 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-09-03 15:49:41,026 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-09-03 15:49:41,034 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\迅雷下载\gp_admin_Code\gp_admin_Code
+2020-09-03 15:49:41,066 [10] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:3308/  
+2020-09-03 15:49:41,112 [10] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'gp_admin_Code.Controllers.LoginController.Login (gp_admin_Code)'
+2020-09-03 15:49:41,137 [10] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller gp_admin_Code.Controllers.LoginController (gp_admin_Code).
+2020-09-03 15:49:41,430 [10] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+2020-09-03 15:49:41,512 [10] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 87.0799ms.
+2020-09-03 15:49:41,517 [10] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action gp_admin_Code.Controllers.LoginController.Login (gp_admin_Code) in 375.1883ms
+2020-09-03 15:49:41,526 [10] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'gp_admin_Code.Controllers.LoginController.Login (gp_admin_Code)'
+2020-09-03 15:49:41,537 [10] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 471.5263ms 200 text/html; charset=utf-8
+2020-09-03 15:49:41,572 [10] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:3308/lib/jquery/dist/jquery.js  
+2020-09-03 15:49:41,603 [8] INFO  Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'D:\迅雷下载\gp_admin_Code\gp_admin_Code\wwwroot\lib\jquery\dist\jquery.js'
+2020-09-03 15:49:41,607 [8] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 37.4705ms 200 application/javascript
+2020-09-03 15:49:49,700 [11] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:3308/Login/LoginDo application/x-www-form-urlencoded 36
+2020-09-03 15:49:49,708 [11] INFO  Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware - No CORS policy found for the specified request.
+2020-09-03 15:49:49,716 [11] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'gp_admin_Code.Controllers.LoginController.LoginDoAsync (gp_admin_Code)'
+2020-09-03 15:49:49,735 [11] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "LoginDo", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginDoAsync(System.String, System.String) on controller gp_admin_Code.Controllers.LoginController (gp_admin_Code).
+2020-09-03 15:49:50,479 [11] INFO  Microsoft.AspNetCore.Session.DistributedSession - Accessing expired session, Key:dd915089-8b60-3543-8a66-b2ab4eaa81be
+2020-09-03 15:49:51,895 [11] INFO  Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler - AuthenticationScheme: CookieAuthentication signed in.
+2020-09-03 15:49:52,112 [11] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /Roles/Index.
+2020-09-03 15:49:52,115 [11] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action gp_admin_Code.Controllers.LoginController.LoginDoAsync (gp_admin_Code) in 2375.9424ms
+2020-09-03 15:49:52,117 [11] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'gp_admin_Code.Controllers.LoginController.LoginDoAsync (gp_admin_Code)'
+2020-09-03 15:49:52,120 [11] INFO  Microsoft.AspNetCore.Session.DistributedSession - Session started; Key:dd915089-8b60-3543-8a66-b2ab4eaa81be, Id:9b7dba0e-c9d1-e4cd-a617-c414b176dd08
+2020-09-03 15:49:52,126 [11] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2425.2129ms 302 
+2020-09-03 15:49:52,130 [4] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:3308/Roles/Index  
+2020-09-03 15:49:52,141 [4] INFO  Microsoft.AspNetCore.Authorization.DefaultAuthorizationService - Authorization was successful.
+2020-09-03 15:49:52,145 [4] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'gp_admin_Code.Controllers.RolesController.Index (gp_admin_Code)'
+2020-09-03 15:49:52,149 [4] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Roles"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller gp_admin_Code.Controllers.RolesController (gp_admin_Code).
+2020-09-03 15:49:52,153 [4] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+2020-09-03 15:49:52,163 [4] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 9.8994ms.
+2020-09-03 15:49:52,166 [4] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action gp_admin_Code.Controllers.RolesController.Index (gp_admin_Code) in 14.6207ms
+2020-09-03 15:49:52,169 [4] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'gp_admin_Code.Controllers.RolesController.Index (gp_admin_Code)'
+2020-09-03 15:49:52,172 [4] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 41.3566ms 200 text/html; charset=utf-8
+2020-09-03 15:49:52,192 [11] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:3308/Roles/Top  
+2020-09-03 15:49:52,193 [10] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:3308/Roles/Left  
+2020-09-03 15:49:52,195 [13] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:3308/Roles/Main  
+2020-09-03 15:49:52,198 [13] INFO  Microsoft.AspNetCore.Authorization.DefaultAuthorizationService - Authorization was successful.
+2020-09-03 15:49:52,199 [11] INFO  Microsoft.AspNetCore.Authorization.DefaultAuthorizationService - Authorization was successful.
+2020-09-03 15:49:52,201 [10] INFO  Microsoft.AspNetCore.Authorization.DefaultAuthorizationService - Authorization was successful.
+2020-09-03 15:49:52,204 [13] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'gp_admin_Code.Controllers.RolesController.Main (gp_admin_Code)'
+2020-09-03 15:49:52,207 [11] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'gp_admin_Code.Controllers.RolesController.Top (gp_admin_Code)'
+2020-09-03 15:49:52,208 [10] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'gp_admin_Code.Controllers.RolesController.Left (gp_admin_Code)'
+2020-09-03 15:49:52,212 [13] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "Main", controller = "Roles"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Main() on controller gp_admin_Code.Controllers.RolesController (gp_admin_Code).
+2020-09-03 15:49:52,213 [11] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "Top", controller = "Roles"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Top() on controller gp_admin_Code.Controllers.RolesController (gp_admin_Code).
+2020-09-03 15:49:52,215 [10] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "Left", controller = "Roles"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Left() on controller gp_admin_Code.Controllers.RolesController (gp_admin_Code).
+2020-09-03 15:49:52,218 [13] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Main.
+2020-09-03 15:49:52,220 [11] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Top.
+2020-09-03 15:49:52,225 [13] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Main executed in 9.0572ms.
+2020-09-03 15:49:52,229 [11] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Top executed in 8.6832ms.
+2020-09-03 15:49:52,231 [13] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action gp_admin_Code.Controllers.RolesController.Main (gp_admin_Code) in 14.4382ms
+2020-09-03 15:49:52,234 [11] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action gp_admin_Code.Controllers.RolesController.Top (gp_admin_Code) in 15.1202ms
+2020-09-03 15:49:52,236 [13] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'gp_admin_Code.Controllers.RolesController.Main (gp_admin_Code)'
+2020-09-03 15:49:52,238 [11] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'gp_admin_Code.Controllers.RolesController.Top (gp_admin_Code)'
+2020-09-03 15:49:52,241 [13] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 47.2471ms 200 text/html; charset=utf-8
+2020-09-03 15:49:52,243 [11] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 51.9729ms 200 text/html; charset=utf-8
+2020-09-03 15:49:52,359 [10] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Left.
+2020-09-03 15:49:52,365 [10] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Left executed in 7.8347ms.
+2020-09-03 15:49:52,369 [10] INFO  Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action gp_admin_Code.Controllers.RolesController.Left (gp_admin_Code) in 149.7389ms
+2020-09-03 15:49:52,371 [10] INFO  Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'gp_admin_Code.Controllers.RolesController.Left (gp_admin_Code)'
+2020-09-03 15:49:52,375 [10] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 184.1925ms 200 text/html; charset=utf-8
